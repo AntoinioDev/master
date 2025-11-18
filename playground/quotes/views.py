@@ -24,7 +24,7 @@ def days_week(request, day):
         return HttpResponse(quote_text)
     
     except:
-        return HttpResponseNotFound("Frase no encontrada para el día especificado.")
+        return HttpResponseNotFound("Frase no encontrada para e-l día especificado.")
 def index(request):
     list_items=""
     days = list(days_of_week.keys())
