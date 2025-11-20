@@ -9,7 +9,7 @@ def home(request):
     today = date.today()
     stack = [{'id':"python",'name':"python"} ,{'id':"Django",'name':"Django"},{'id':"Golang",'name':"Golang"},{'id':"PHP",'name':"PHP"},{'id':"JS",'name':"JS"}]
     return render(request,"landing/landing.html",{
-        "name":"Antonio",
+        "name":"Fernando",
         "edad":15,
         "today":today,
         "stack":stack
